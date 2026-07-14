@@ -1,0 +1,4 @@
+interface:
+  display_name: "人民法院在线材料助手"
+  short_description: "整理网络小额纠纷证据并生成法院在线提交材料与报案分流指引"
+  default_prompt: "使用 $prepare-cn-online-court-materials 从我提供的聊天、交易和身份材料中提取信息，先判断民事起诉或报案路径，再生成可上传的 Word 和 PDF 材料包。"
