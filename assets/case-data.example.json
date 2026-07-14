@@ -1,0 +1,96 @@
+{
+  "case_id": "demo-001",
+  "route": "civil",
+  "case_type": "online_goods",
+  "draft": true,
+  "title": "网络商品交易纠纷",
+  "plaintiff": {
+    "name": "张某",
+    "phone": "13800000000",
+    "id_type": "居民身份证",
+    "id_number": "待用户确认",
+    "registered_address": "待用户确认",
+    "usual_address": ""
+  },
+  "defendants": [
+    {
+      "name": "李某",
+      "phone": "13900000000",
+      "address": "某省某市某区",
+      "platform_account": "示例账号",
+      "payment_account": "示例收款账号",
+      "distinguishable_basis": "姓名、手机号、收款账号及聊天账号可以组合识别；仍需法院审查"
+    }
+  ],
+  "court": {
+    "name": "待确认",
+    "basis": "待核验被告住所地、合同履行地及是否存在有效管辖约定",
+    "live_upload_rules_checked": false
+  },
+  "transaction": {
+    "party_relationship": "individual_to_individual",
+    "subject": "二手手机",
+    "amount": "1200.00",
+    "paid_at": "2026-06-01 14:30",
+    "payment_channel": "微信支付",
+    "order_or_transfer_id": "示例单号",
+    "agreement": "被告承诺收款后次日发货",
+    "performance": "付款后未发货，多次催促后失联"
+  },
+  "claims": [
+    "请求返还货款1200元",
+    "请求依法承担本案诉讼费用"
+  ],
+  "facts": [
+    {
+      "text": "2026年6月1日，双方通过网络平台就二手手机买卖达成一致。",
+      "source": "证据1，聊天记录第1-3页",
+      "confidence": "confirmed"
+    },
+    {
+      "text": "原告于同日支付1200元。",
+      "source": "证据2，支付账单第1页",
+      "confidence": "confirmed"
+    }
+  ],
+  "mediation_preference": "暂不确定",
+  "evidence": [
+    {
+      "id": "E001",
+      "name": "交易聊天记录",
+      "category": "交易形成及履行",
+      "source": "用户手机中的平台聊天",
+      "formed_at": "2026-06-01至2026-06-05",
+      "proof_purpose": "证明双方买卖合意、商品信息、价款、发货承诺及催促情况",
+      "file": "",
+      "page_or_range": "待生成",
+      "original_carrier": "用户手机及平台账号",
+      "integrity_note": "需保留账号主页和完整上下文",
+      "confirmed": true
+    },
+    {
+      "id": "E002",
+      "name": "支付交易账单",
+      "category": "付款及损失",
+      "source": "支付平台官方账单",
+      "formed_at": "2026-06-01",
+      "proof_purpose": "证明付款金额、时间和收款账号",
+      "file": "",
+      "page_or_range": "待生成",
+      "original_carrier": "支付平台账号",
+      "integrity_note": "优先使用可下载账单",
+      "confirmed": true
+    }
+  ],
+  "open_issues": [
+    {
+      "severity": "critical",
+      "item": "受诉法院及管辖依据尚未确认"
+    }
+  ],
+  "signature": {
+    "name": "待本人签名",
+    "date": "待确认"
+  },
+  "sources_verified_at": "2026-07-14"
+}
