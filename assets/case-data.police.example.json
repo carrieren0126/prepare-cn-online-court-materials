@@ -1,0 +1,14 @@
+{
+  "case_id": "demo-police-001",
+  "route": "police",
+  "case_type": "investment_or_rebate",
+  "title": "网络转账异常情况",
+  "plaintiff": {"name": "王某", "phone": "13800000000", "registered_address": "某省某市某区"},
+  "defendants": [{"name": "待公安机关核查", "platform_account": "示例账号", "payment_account": "示例收款账号", "distinguishable_basis": "平台账号、收款账号及聊天记录"}],
+  "transaction": {"party_relationship": "unknown", "subject": "返利任务", "amount": "3000.00", "paid_at": "2026-06-02", "payment_channel": "示例支付平台", "order_or_transfer_id": "示例单号", "agreement": "对方称完成转账后返还本金并支付返利", "performance": "对方继续要求追加转账"},
+  "facts": [{"text": "报案人按对方指引转账后，对方继续要求追加付款。", "source": "证据1、证据2", "confidence": "confirmed"}],
+  "evidence": [{"id": "E001", "name": "聊天记录及转账记录", "source": "用户手机及支付平台账号", "formed_at": "2026-06-02", "proof_purpose": "证明对方的陈述、转账指引、收款线索及损失金额", "file": "", "page_or_range": "待生成", "original_carrier": "用户手机及支付平台账号", "integrity_note": "应保留完整上下文和平台可下载账单", "confirmed": true}],
+  "open_issues": [],
+  "signature": {"name": "王某", "date": "2026-07-14"},
+  "sources_verified_at": "2026-07-14"
+}
